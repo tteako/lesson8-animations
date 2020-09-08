@@ -15,8 +15,7 @@ body {
 /* Header Style */
 header {
 	width: 100%;
-	position: absolute;
-	top: 0px;
+	height: ;
 }
 .navigation {
 	position: absolute;
@@ -57,4 +56,43 @@ header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+.animated-text {
+	font-size: 39px;
+	color: #FFFF00;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	white-space: nowrap;
+}
+.read-more {
+	position: absolute;
+	right: 7px;
+	bottom: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.read-more a{
+	color: #39B54A;
+}
+.created {
+	color: #FCEE21;
+	font-size: 14px;
+	position: absolute;
+	right: 13px;
+	bottom: 13px;
+}
+.green-box2:hover {
+	background-color: #FFFF00;
+
+}
+.green-box2:hover .animated-text {
+	color: #C1272D;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	white-space: nowrap;
+	transition: all 2s ease-in 0.2s;
+
 }
