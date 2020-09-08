@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/ptserif/PTSerif-Regular.eot');
+    src: url('../fonts/ptserif/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ptserif/PTSerif-Regular.woff2') format('woff2'),
+        url('../fonts/ptserif/PTSerif-Regular.woff') format('woff'),
+        url('../fonts/ptserif/PTSerif-Regular.ttf') format('truetype'),
+        url('../fonts/ptserif/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
