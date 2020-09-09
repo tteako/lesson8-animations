@@ -85,6 +85,7 @@ header {
 }
 .green-box2:hover {
 	background-color: #FFFF00;
+	cursor: pointer;
 
 }
 .green-box2:hover .animated-text {
